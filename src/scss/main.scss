@@ -83,9 +83,6 @@ body {
   background: var(--purple, #e783bc);
 }
 
-.player-button-play {
-}
-
 .fa-solid fa-pause {
   display: flex;
   width: 74px;
@@ -93,4 +90,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.player-button-pause {
+  display: none;
+}
+
+audio {
+  display: none;
+}
+
+.player-progress-bar {
+  border-radius: 3px;
+  background: var(--light-gray, #f6f6ef);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
 }
