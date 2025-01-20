@@ -119,3 +119,7 @@ audio {
   border-radius: 37px;
   background: var(--purple, #e783bc);
 }
+
+.player-button pause {
+  background-image: url("../img/pause-solid.svg");
+}
